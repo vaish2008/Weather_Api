@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color:blue;
+    text-align: var(--bs-body-text-align);
+    background-color: darkgrey;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-image: url(https://www.nationsonline.org/maps/physical_world_map_1600px.jpg);
+}
+.card {
+    --bs-card-bg: gray;
+    color: black;
+}
+.table {
+    --bs-table-bg: grey;
+}
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    color: blue;
+}
+
